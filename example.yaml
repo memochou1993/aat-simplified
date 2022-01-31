@@ -1,0 +1,1486 @@
+---
+subjects:
+  - subjectId: "300189558"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300055146"
+          relationshipType: Parent/Child
+          historicFlag: Current
+          termText: sex
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents: []
+    note:
+      descriptiveNotes:
+        - noteText: Referring to the sex that in reproduction normally produces sperm cells or male gametes.
+          noteLanguage: English
+          noteContributor:
+            noteContributors:
+              - contributorId: 10000000/VP
+          noteSource:
+            noteSources:
+              - source:
+                  sourceId: 2000046682/Random House Dictionary of the English Language (1987)
+        - noteText: Se refiere al sexo que en la reproducción normalmente produce espermatozoides o gametos masculinos.
+          noteLanguage: Spanish
+          noteContributor:
+            noteContributors:
+              - contributorId: 10000131/CDBP-SNPC
+          noteSource:
+            noteSources:
+              - source:
+                  sourceId: 2000051034/TAA database (2000-)
+        - noteText: Verwijst naar het geslacht dat normaal gesproken bij de voortplanting spermacellen of mannelijke geslachtscellen produceert.
+          noteLanguage: Dutch
+          noteContributor:
+            noteContributors:
+              - contributorId: 10000205/RKD, AAT-Ned
+          noteSource:
+            noteSources:
+              - source:
+                  sourceId: 2000099619/AAT-Ned (1994-)
+              - source:
+                  sourceId: 2000052381/Van Dale Engels-Nederlands (1989)
+        - noteText: 通常指在生殖上可製造精細胞或雄性配子的性別。
+          noteLanguage: Chinese (traditional)
+          noteContributor:
+            noteContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+          noteSource:
+            noteSources:
+              - source:
+                  sourceId: 2000052784/TELDAP database (2009-)
+    recordType: Concept
+    mergedStatus: Merged
+    hierarchy: sex (biological characteristic) | biological concepts | scientific concepts | Associated Concepts (hierarchy name) | Associated Concepts Facet
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: male
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000189559"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000000/VP
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000048328/Contributed as a candidate term
+                page: Candidate term--McGill--9/90
+                preferred: Preferred
+              - source:
+                  sourceId: 2000046682/Random House Dictionary of the English Language (1987)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000041001/UNESCO Thesaurus (1977)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000042061/Webster's Third New International Dictionary (1961)
+                page: "\n            "
+                preferred: Preferred
+      nonPreferredTerms:
+        - termText: masculino
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000443163"
+          termLanguage:
+            termLanguages:
+              - language: 70641/Spanish
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000131/CDBP-SNPC
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000051235/Nuevo Espasa Ilustrado 2000, Diccionario Enciclopédico (1999)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000048810/Moliner, Diccionario de uso del español (2004)
+                page: II:360
+                preferred: Preferred
+        - termText: mannelijk
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000496747"
+          termLanguage:
+            termLanguages:
+              - language: 70261/Dutch
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000205/RKD, AAT-Ned
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000099619/AAT-Ned (1994-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000052381/Van Dale Engels-Nederlands (1989)
+                page: "\n            "
+                preferred: Unknown
+        - termText: 雄性
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000531598"
+          termLanguage:
+            termLanguages:
+              - language: 72551/Chinese (traditional)
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000058246/國立編譯館學術名詞資訊網
+                page: September 19, 2011
+                preferred: Preferred
+              - source:
+                  sourceId: 2000058247/牛津當代大辭典
+                page: p. 1114
+                preferred: Preferred
+        - termText: hsiung hsing
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000531601"
+          termLanguage:
+            termLanguages:
+              - language: 72582/Chinese (transliterated Wade-Giles)
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Used For Term
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000052784/TELDAP database (2009-)
+                page: "\n            "
+                preferred: Non Preferred
+        - termText: xiong xing
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000531599"
+          termLanguage:
+            termLanguages:
+              - language: 72586/Chinese (transliterated Pinyin without tones)
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Used For Term
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000052784/TELDAP database (2009-)
+                page: "\n            "
+                preferred: Non Preferred
+        - termText: xióng xìng
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000531600"
+          termLanguage:
+            termLanguages:
+              - language: 72584/Chinese (transliterated Hanyu Pinyin)
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Used For Term
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000052784/TELDAP database (2009-)
+                page: "\n            "
+                preferred: Non Preferred
+    associativeRelationship:
+      associativeRelationships:
+        - relationshipType: related to
+          relatedSubjectId:
+            vpSubjectId: "300411836"
+          historicFlag: Current
+        - relationshipType: possessed by/existing in
+          relatedSubjectId:
+            vpSubjectId: "300025928"
+          historicFlag: Current
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000000/VP
+        - contributorId: 10000131/CDBP-SNPC
+        - contributorId: 10000250/AS-Academia Sinica
+        - contributorId: 10000205/RKD, AAT-Ned
+    subjectSource:
+      subjectSources:
+        - source:
+            sourceId: '2000024811/CDMARC Subjects: LCSH (1988-)'
+        - source:
+            sourceId: 2000052381/Van Dale Engels-Nederlands (1989)
+  - subjectId: "300189557"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300055146"
+          relationshipType: Parent/Child
+          historicFlag: Current
+          termText: sex
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents: []
+    note:
+      descriptiveNotes:
+        - noteText: Referring to the sex that normally produces eggs or female germ cells.
+          noteLanguage: English
+          noteContributor:
+            noteContributors:
+              - contributorId: 10000000/VP
+          noteSource:
+            noteSources:
+              - source:
+                  sourceId: 2000046682/Random House Dictionary of the English Language (1987)
+        - noteText: Se refiere al sexo que normalmente produce óvulos o células reproductoras femeninas.
+          noteLanguage: Spanish
+          noteContributor:
+            noteContributors:
+              - contributorId: 10000131/CDBP-SNPC
+          noteSource:
+            noteSources:
+              - source:
+                  sourceId: 2000051034/TAA database (2000-)
+        - noteText: Verwijst naar het geslacht dat normaal gesproken eieren of vrouwelijke geslachtscellen produceert.
+          noteLanguage: Dutch
+          noteContributor:
+            noteContributors:
+              - contributorId: 10000205/RKD, AAT-Ned
+          noteSource:
+            noteSources:
+              - source:
+                  sourceId: 2000099619/AAT-Ned (1994-)
+              - source:
+                  sourceId: 2000052381/Van Dale Engels-Nederlands (1989)
+        - noteText: 通常指可產卵或雌性生殖細胞的性別。
+          noteLanguage: Chinese (traditional)
+          noteContributor:
+            noteContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+          noteSource:
+            noteSources:
+              - source:
+                  sourceId: 2000052784/TELDAP database (2009-)
+    recordType: Concept
+    mergedStatus: Merged
+    hierarchy: sex (biological characteristic) | biological concepts | scientific concepts | Associated Concepts (hierarchy name) | Associated Concepts Facet
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: female
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000189557"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000000/VP
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000048328/Contributed as a candidate term
+                page: Candidate term--McGill--9/90
+                preferred: Preferred
+              - source:
+                  sourceId: 2000046682/Random House Dictionary of the English Language (1987)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000041001/UNESCO Thesaurus (1977)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000042061/Webster's Third New International Dictionary (1961)
+                page: "\n            "
+                preferred: Preferred
+      nonPreferredTerms:
+        - termText: femenino
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000443162"
+          termLanguage:
+            termLanguages:
+              - language: 70641/Spanish
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000131/CDBP-SNPC
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000051219/Diccionario de términos científicos y técnicos (1981)
+                page: 5:2389
+                preferred: Preferred
+        - termText: vrouwelijk
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000496746"
+          termLanguage:
+            termLanguages:
+              - language: 70261/Dutch
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000205/RKD, AAT-Ned
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000099619/AAT-Ned (1994-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000052381/Van Dale Engels-Nederlands (1989)
+                page: "\n            "
+                preferred: Unknown
+        - termText: 雌性
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000531594"
+          termLanguage:
+            termLanguages:
+              - language: 72551/Chinese (traditional)
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000058243/國立編譯館學術名詞資訊網
+                page: December 23, 2011
+                preferred: Preferred
+              - source:
+                  sourceId: 2000058244/中央研究院中英雙語知識本體詞網
+                page: December 23, 2011
+                preferred: Preferred
+              - source:
+                  sourceId: 2000058245/智慧藏百科全書網
+                page: December 23, 2011
+                preferred: Preferred
+        - termText: ci xing
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000531595"
+          termLanguage:
+            termLanguages:
+              - language: 72586/Chinese (transliterated Pinyin without tones)
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Used For Term
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000052784/TELDAP database (2009-)
+                page: "\n            "
+                preferred: Non Preferred
+        - termText: cí xìng
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000531596"
+          termLanguage:
+            termLanguages:
+              - language: 72584/Chinese (transliterated Hanyu Pinyin)
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Used For Term
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000052784/TELDAP database (2009-)
+                page: "\n            "
+                preferred: Non Preferred
+        - termText: tz'u hsing
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000531597"
+          termLanguage:
+            termLanguages:
+              - language: 72582/Chinese (transliterated Wade-Giles)
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Used For Term
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000250/AS-Academia Sinica
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000052784/TELDAP database (2009-)
+                page: "\n            "
+                preferred: Non Preferred
+    associativeRelationship:
+      associativeRelationships:
+        - relationshipType: related to
+          relatedSubjectId:
+            vpSubjectId: "300411837"
+          historicFlag: Current
+        - relationshipType: possessed by/existing in
+          relatedSubjectId:
+            vpSubjectId: "300025943"
+          historicFlag: Current
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000000/VP
+        - contributorId: 10000131/CDBP-SNPC
+        - contributorId: 10000250/AS-Academia Sinica
+        - contributorId: 10000205/RKD, AAT-Ned
+    subjectSource:
+      subjectSources:
+        - source:
+            sourceId: '2000024811/CDMARC Subjects: LCSH (1988-)'
+        - source:
+            sourceId: 2000052381/Van Dale Engels-Nederlands (1989)
+  - subjectId: "300435686"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300435690"
+          relationshipType: Parent/Child
+          historicFlag: Current
+          termText: addresses
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents:
+        - parentSubjectId: "300404626"
+          relationshipType: Parent/Child
+          historicFlag: Current
+          termText: identification numbers [300404626], identification numbers and codes [300417447], identifying artifacts [300200896], information artifacts by function [300137961], information artifacts [300230425], information forms (objects) [300220751], Information Forms (hierarchy name) [300026029], Visual and Verbal Communication (hierarchy name) [300264552], Objects Facet [300264092]
+          hierRelType: Genus/Species-BTG
+    note:
+      descriptiveNotes:
+        - noteText: Strings of characters that uniquely identify a location on the internet or other network to which email can be sent; the email address is typically a point of contact for a particular individual or organization.
+          noteLanguage: English
+          noteContributor:
+            noteContributors:
+              - contributorId: 10000000/VP
+          noteSource:
+            noteSources:
+              - source:
+                  sourceId: 2000105988/Oxford English Dictionary Online (2002-)
+    recordType: Concept
+    mergedStatus: Not Merged
+    hierarchy: addresses (communications concepts) | communications concepts | Associated Concepts (hierarchy name) | Associated Concepts Facet
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: email addresses
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000810749"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Plural Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000000/VP
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000105988/Oxford English Dictionary Online (2002-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000093795/Encyclopedia Britannica Online (2002-)
+                page: '"e-mail (computer science)"; accessed 19 November 2019'
+                preferred: Alternate Preferred
+      nonPreferredTerms:
+        - termText: email address
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000810750"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: Singular Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000000/VP
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000105988/Oxford English Dictionary Online (2002-)
+                page: "\n            "
+                preferred: Non Preferred
+        - termText: addresses, email
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000810751"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Used For Term
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000000/VP
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000094828/Getty Vocabulary Program rules
+                page: "\n            "
+                preferred: Non Preferred
+        - termText: e-mail addresses
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000810768"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Used For Term
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000000/VP
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000093795/Encyclopedia Britannica Online (2002-)
+                page: "\n            "
+                preferred: Non Preferred
+    associativeRelationship:
+      associativeRelationships:
+        - relationshipType: associated with
+          relatedSubjectId:
+            vpSubjectId: "300149026"
+          historicFlag: Current
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000000/VP
+    subjectSource:
+      subjectSources: []
+  - subjectId: "300420123"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300435696"
+          relationshipType: Parent/Child
+          historicFlag: Undetermined
+          termText: 'temporary alphabetical list: water transportation equipment'
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents: []
+    note:
+      descriptiveNotes: []
+    recordType: Concept
+    mergedStatus: Not Merged
+    hierarchy: '<temporary alphabetical list: water transportation equipment> | water transportation equipment | vehicle equipment | <equipment by context> | equipment | Tools and Equipment (hierarchy name) | Furnishings and Equipment (hierarchy name) | Objects Facet'
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: anchor chain
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000779690"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: Singular Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "12405"
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/12405; scheme: Nomenclature-Objects'
+                preferred: Preferred
+      nonPreferredTerms:
+        - termText: chaîne d'ancrage
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000779691"
+          termLanguage:
+            termLanguages:
+              - language: 70271/French
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: feminine singular noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Non Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Non Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/12405; scheme: Nomenclature-Objects'
+                preferred: Alternate Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "12405"
+                preferred: Unknown
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Alternate Preferred
+    associativeRelationship:
+      associativeRelationships: []
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000159/CHIN / RCIP
+        - contributorId: 10000299/AASLH
+    subjectSource:
+      subjectSources:
+        - source:
+            sourceId: 2000106160/Nomenclature database (2018-)
+        - source:
+            sourceId: 2000106165/AASLH data (2016-)
+        - source:
+            sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+        - source:
+            sourceId: 2000106167/CHIN / RCIP translation (2016-)
+  - subjectId: "300420324"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300435697"
+          relationshipType: Parent/Child
+          historicFlag: Undetermined
+          termText: 'temporary alphabetical list: weapons'
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents: []
+    note:
+      descriptiveNotes: []
+    recordType: Concept
+    mergedStatus: Not Merged
+    hierarchy: '<temporary alphabetical list: weapons> | weapons | Weapons and Ammunition (hierarchy name) | Furnishings and Equipment (hierarchy name) | Objects Facet'
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: armaments
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000780024"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: Singular Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/7734; scheme: Nomenclature-Objects'
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "7734"
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Preferred
+      nonPreferredTerms:
+        - termText: armement
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000780025"
+          termLanguage:
+            termLanguages:
+              - language: 70271/French
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: neuter singular noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Non Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Non Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/7734; scheme: Nomenclature-Objects'
+                preferred: Alternate Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "7734"
+                preferred: Unknown
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Alternate Preferred
+    associativeRelationship:
+      associativeRelationships: []
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000159/CHIN / RCIP
+        - contributorId: 10000299/AASLH
+    subjectSource:
+      subjectSources:
+        - source:
+            sourceId: 2000106160/Nomenclature database (2018-)
+        - source:
+            sourceId: 2000106165/AASLH data (2016-)
+        - source:
+            sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+        - source:
+            sourceId: 2000106167/CHIN / RCIP translation (2016-)
+  - subjectId: "300420213"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300435701"
+          relationshipType: Parent/Child
+          historicFlag: Undetermined
+          termText: 'temporary alphabetical list: woodworking equipment'
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents: []
+    note:
+      descriptiveNotes: []
+    recordType: Concept
+    mergedStatus: Not Merged
+    hierarchy: '<temporary alphabetical list: woodworking equipment> | woodworking equipment | <equipment by material processed> | equipment | Tools and Equipment (hierarchy name) | Furnishings and Equipment (hierarchy name) | Objects Facet'
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: annular bits
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000810830"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Descriptor
+                partOfSpeech: Plural Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000000/VP
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000036401/Salaman, Dictionary of Tools Used in Woodworking (1975)
+                page: "77"
+                preferred: Non Preferred
+      nonPreferredTerms:
+        - termText: annular bit
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000779839"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: Singular Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000299/AASLH
+                preferred: Preferred
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/7204; scheme: Nomenclature-Objects'
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "7204"
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Preferred
+        - termText: trépan annulaire
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000779840"
+          termLanguage:
+            termLanguages:
+              - language: 70271/French
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: masculine singular noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Non Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Non Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "7204"
+                preferred: Unknown
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Alternate Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/7204; scheme: Nomenclature-Objects'
+                preferred: Alternate Preferred
+        - termText: bits, annular
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000810831"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Used For Term
+                partOfSpeech: Undetermined
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000000/VP
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000094828/Getty Vocabulary Program rules
+                page: "\n            "
+                preferred: Non Preferred
+    associativeRelationship:
+      associativeRelationships: []
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000159/CHIN / RCIP
+        - contributorId: 10000299/AASLH
+        - contributorId: 10000000/VP
+    subjectSource:
+      subjectSources:
+        - source:
+            sourceId: 2000106160/Nomenclature database (2018-)
+        - source:
+            sourceId: 2000106165/AASLH data (2016-)
+        - source:
+            sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+        - source:
+            sourceId: 2000106167/CHIN / RCIP translation (2016-)
+  - subjectId: "300422082"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300435703"
+          relationshipType: Parent/Child
+          historicFlag: Undetermined
+          termText: 'temporary alphabetical list: worn costume accessories'
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents: []
+    note:
+      descriptiveNotes: []
+    recordType: Concept
+    mergedStatus: Not Merged
+    hierarchy: '<temporary alphabetical list: worn costume accessories> | worn costume accessories | costume accessories | costume (mode of fashion) | Costume (hierarchy name) | Furnishings and Equipment (hierarchy name) | Objects Facet'
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: bolo slide
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000781943"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: Singular Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "2108"
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/2108; scheme: Nomenclature-Objects'
+                preferred: Preferred
+      nonPreferredTerms:
+        - termText: collier bolo
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000781944"
+          termLanguage:
+            termLanguages:
+              - language: 70271/French
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: masculine singular noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Non Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Non Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/2108; scheme: Nomenclature-Objects'
+                preferred: Alternate Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "2108"
+                preferred: Unknown
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Alternate Preferred
+    associativeRelationship:
+      associativeRelationships: []
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000159/CHIN / RCIP
+        - contributorId: 10000299/AASLH
+    subjectSource:
+      subjectSources:
+        - source:
+            sourceId: 2000106160/Nomenclature database (2018-)
+        - source:
+            sourceId: 2000106165/AASLH data (2016-)
+        - source:
+            sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+        - source:
+            sourceId: 2000106167/CHIN / RCIP translation (2016-)
+  - subjectId: "300421683"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300435705"
+          relationshipType: Parent/Child
+          historicFlag: Undetermined
+          termText: 'temporary alphabetical list: culinary equipment'
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents: []
+    note:
+      descriptiveNotes: []
+    recordType: Concept
+    mergedStatus: Not Merged
+    hierarchy: '<temporary alphabetical list: culinary equipment> | culinary equipment | <equipment by context> | equipment | Tools and Equipment (hierarchy name) | Furnishings and Equipment (hierarchy name) | Objects Facet'
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: acidity tester
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000779253"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: Singular Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/4570; scheme: Nomenclature-Objects'
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "4570"
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Preferred
+      nonPreferredTerms:
+        - termText: acidimètre à fromage
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000779254"
+          termLanguage:
+            termLanguages:
+              - language: 70271/French
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: masculine singular noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Non Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Non Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/4570; scheme: Nomenclature-Objects'
+                preferred: Alternate Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "4570"
+                preferred: Unknown
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Alternate Preferred
+    associativeRelationship:
+      associativeRelationships: []
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000159/CHIN / RCIP
+        - contributorId: 10000299/AASLH
+    subjectSource:
+      subjectSources:
+        - source:
+            sourceId: 2000106160/Nomenclature database (2018-)
+        - source:
+            sourceId: 2000106165/AASLH data (2016-)
+        - source:
+            sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+        - source:
+            sourceId: 2000106167/CHIN / RCIP translation (2016-)
+  - subjectId: "300421925"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300435597"
+          relationshipType: Parent/Child
+          historicFlag: Undetermined
+          termText: 'temporary alphabetical list: protective wear'
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents:
+        - parentSubjectId: "300046131"
+          relationshipType: Parent/Child
+          historicFlag: Current
+          termText: aprons (protective wear) [300046131], protective wear [300209266], costume by function [300212133], costume (mode of fashion) [300178802], Costume (hierarchy name) [300209261], Furnishings and Equipment (hierarchy name) [300264551], Objects Facet [300264092]
+          hierRelType: Genus/Species-BTG
+    note:
+      descriptiveNotes: []
+    recordType: Concept
+    mergedStatus: Not Merged
+    hierarchy: '<temporary alphabetical list: protective wear> | protective wear | <costume by function> | costume (mode of fashion) | Costume (hierarchy name) | Furnishings and Equipment (hierarchy name) | Objects Facet'
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: blacksmith's apron
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000781635"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: Singular Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "2597"
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: '2000106168/Parks Canada Descriptive Dictionary of Objects / Dictionnaire descriptif d’objets (c 1996) '
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/2597; scheme: Nomenclature-Objects'
+                preferred: Preferred
+      nonPreferredTerms:
+        - termText: tablier de forgeron
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000781636"
+          termLanguage:
+            termLanguages:
+              - language: 70271/French
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: masculine singular noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Non Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Non Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/2597; scheme: Nomenclature-Objects'
+                preferred: Alternate Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "2597"
+                preferred: Unknown
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Alternate Preferred
+              - source:
+                  sourceId: '2000106168/Parks Canada Descriptive Dictionary of Objects / Dictionnaire descriptif d’objets (c 1996) '
+                page: "\n            "
+                preferred: Unknown
+    associativeRelationship:
+      associativeRelationships: []
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000159/CHIN / RCIP
+        - contributorId: 10000299/AASLH
+    subjectSource:
+      subjectSources:
+        - source:
+            sourceId: 2000106160/Nomenclature database (2018-)
+        - source:
+            sourceId: 2000106165/AASLH data (2016-)
+        - source:
+            sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+        - source:
+            sourceId: 2000106167/CHIN / RCIP translation (2016-)
+        - source:
+            sourceId: '2000106168/Parks Canada Descriptive Dictionary of Objects / Dictionnaire descriptif d’objets (c 1996) '
+  - subjectId: "300423220"
+    parentRelationship:
+      preferredParents:
+        - parentSubjectId: "300435598"
+          relationshipType: Parent/Child
+          historicFlag: Undetermined
+          termText: 'temporary alphabetical list: public buildings'
+          hierRelType: Genus/Species-BTG
+      nonPreferredParents: []
+    note:
+      descriptiveNotes: []
+    recordType: Concept
+    mergedStatus: Not Merged
+    hierarchy: '<temporary alphabetical list: public buildings> | public buildings (governmental buildings) | <single built works by function> | <single built works by specific type> | single built works (built environment) | Single Built Works (hierarchy name) | Built Environment (hierarchy name) | Objects Facet'
+    sortOrder: "1"
+    term:
+      preferredTerms:
+        - termText: civic &amp; social structures
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000784479"
+          termLanguage:
+            termLanguages:
+              - language: 70051/English
+                preferred: Non Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: Singular Noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/597; scheme: Nomenclature-Objects'
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "597"
+                preferred: Preferred
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Preferred
+      nonPreferredTerms:
+        - termText: constructions civiques et sociales
+          displayName: N/A
+          historicFlag: Current
+          vernacular: Undetermined
+          termId: "1000784480"
+          termLanguage:
+            termLanguages:
+              - language: 70271/French
+                preferred: Preferred
+                qualifier: "\n            "
+                termType: Alternate Descriptor
+                partOfSpeech: neuter singular noun
+                langStat: Undetermined
+          termContributor:
+            termContributors:
+              - contributorId: 10000159/CHIN / RCIP
+                preferred: Non Preferred
+              - contributorId: 10000299/AASLH
+                preferred: Non Preferred
+          termSource:
+            termSources:
+              - source:
+                  sourceId: 2000106165/AASLH data (2016-)
+                page: "\n            "
+                preferred: Non Preferred
+              - source:
+                  sourceId: 2000106160/Nomenclature database (2018-)
+                page: 'http://nomenclature.info/nom/597; scheme: Nomenclature-Objects'
+                preferred: Alternate Preferred
+              - source:
+                  sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+                page: "597"
+                preferred: Unknown
+              - source:
+                  sourceId: 2000106167/CHIN / RCIP translation (2016-)
+                page: "\n            "
+                preferred: Alternate Preferred
+    associativeRelationship:
+      associativeRelationships: []
+    subjectContributor:
+      subjectContributors:
+        - contributorId: 10000159/CHIN / RCIP
+        - contributorId: 10000299/AASLH
+    subjectSource:
+      subjectSources:
+        - source:
+            sourceId: 2000106160/Nomenclature database (2018-)
+        - source:
+            sourceId: 2000106165/AASLH data (2016-)
+        - source:
+            sourceId: 2000106166/Nomenclature for Museum Cataloging / Nomenclature pour le catalogage translation project (2016-)
+        - source:
+            sourceId: 2000106167/CHIN / RCIP translation (2016-)
+  
