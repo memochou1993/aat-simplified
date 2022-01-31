@@ -20,35 +20,6 @@ subjects:
             noteSources:
               - source:
                   sourceId: 2000046682/Random House Dictionary of the English Language (1987)
-        - noteText: Se refiere al sexo que en la reproducción normalmente produce espermatozoides o gametos masculinos.
-          noteLanguage: Spanish
-          noteContributor:
-            noteContributors:
-              - contributorId: 10000131/CDBP-SNPC
-          noteSource:
-            noteSources:
-              - source:
-                  sourceId: 2000051034/TAA database (2000-)
-        - noteText: Verwijst naar het geslacht dat normaal gesproken bij de voortplanting spermacellen of mannelijke geslachtscellen produceert.
-          noteLanguage: Dutch
-          noteContributor:
-            noteContributors:
-              - contributorId: 10000205/RKD, AAT-Ned
-          noteSource:
-            noteSources:
-              - source:
-                  sourceId: 2000099619/AAT-Ned (1994-)
-              - source:
-                  sourceId: 2000052381/Van Dale Engels-Nederlands (1989)
-        - noteText: 通常指在生殖上可製造精細胞或雄性配子的性別。
-          noteLanguage: Chinese (traditional)
-          noteContributor:
-            noteContributors:
-              - contributorId: 10000250/AS-Academia Sinica
-          noteSource:
-            noteSources:
-              - source:
-                  sourceId: 2000052784/TELDAP database (2009-)
     recordType: Concept
     mergedStatus: Merged
     hierarchy: sex (biological characteristic) | biological concepts | scientific concepts | Associated Concepts (hierarchy name) | Associated Concepts Facet
@@ -283,35 +254,6 @@ subjects:
             noteSources:
               - source:
                   sourceId: 2000046682/Random House Dictionary of the English Language (1987)
-        - noteText: Se refiere al sexo que normalmente produce óvulos o células reproductoras femeninas.
-          noteLanguage: Spanish
-          noteContributor:
-            noteContributors:
-              - contributorId: 10000131/CDBP-SNPC
-          noteSource:
-            noteSources:
-              - source:
-                  sourceId: 2000051034/TAA database (2000-)
-        - noteText: Verwijst naar het geslacht dat normaal gesproken eieren of vrouwelijke geslachtscellen produceert.
-          noteLanguage: Dutch
-          noteContributor:
-            noteContributors:
-              - contributorId: 10000205/RKD, AAT-Ned
-          noteSource:
-            noteSources:
-              - source:
-                  sourceId: 2000099619/AAT-Ned (1994-)
-              - source:
-                  sourceId: 2000052381/Van Dale Engels-Nederlands (1989)
-        - noteText: 通常指可產卵或雌性生殖細胞的性別。
-          noteLanguage: Chinese (traditional)
-          noteContributor:
-            noteContributors:
-              - contributorId: 10000250/AS-Academia Sinica
-          noteSource:
-            noteSources:
-              - source:
-                  sourceId: 2000052784/TELDAP database (2009-)
     recordType: Concept
     mergedStatus: Merged
     hierarchy: sex (biological characteristic) | biological concepts | scientific concepts | Associated Concepts (hierarchy name) | Associated Concepts Facet

@@ -11,20 +11,7 @@ type Subject struct {
 		NonPreferredParent []ParentRelationship `xml:"Non-Preferred_Parent" bson:"nonPreferredParents" yaml:"nonPreferredParents"`
 	} `xml:"Parent_Relationships" bson:"parentRelationship" yaml:"parentRelationship"`
 	DescriptiveNotes struct {
-		DescriptiveNote []struct {
-			NoteText         string `xml:"Note_Text" bson:"noteText" yaml:"noteText"`
-			NoteLanguage     string `xml:"Note_Language" bson:"noteLanguage" yaml:"noteLanguage"`
-			NoteContributors struct {
-				NoteContributor []struct {
-					ContributorID string `xml:"Contributor_id" bson:"contributorId" yaml:"contributorId"`
-				} `xml:"Note_Contributor" bson:"noteContributors" yaml:"noteContributors"`
-			} `xml:"Note_Contributors" bson:"noteContributor" yaml:"noteContributor"`
-			NoteSources struct {
-				NoteSource []struct {
-					Source Source `xml:"Source" bson:"source" yaml:"source"`
-				} `xml:"Note_Source" bson:"noteSources" yaml:"noteSources"`
-			} `xml:"Note_Sources" bson:"noteSource" yaml:"noteSource"`
-		} `xml:"Descriptive_Note" bson:"descriptiveNotes" yaml:"descriptiveNotes"`
+		DescriptiveNote []DescriptiveNote `xml:"Descriptive_Note" bson:"descriptiveNotes" yaml:"descriptiveNotes"`
 	} `xml:"Descriptive_Notes" bson:"descriptiveNote" yaml:"note"` // use "note" for thesaurus builder
 	RecordType   string `xml:"Record_Type" bson:"recordType" yaml:"recordType"`
 	MergedStatus string `xml:"Merged_Status" bson:"mergedStatus" yaml:"mergedStatus"`
@@ -55,6 +42,21 @@ type ParentRelationship struct {
 	HistoricFlag     string `xml:"Historic_Flag" bson:"historicFlag" yaml:"historicFlag"`
 	ParentString     string `xml:"Parent_String" bson:"parentString" yaml:"termText"` // use "termText" for thesaurus builder
 	HierRelType      string `xml:"Hier_Rel_Type" bson:"hierRelType" yaml:"hierRelType"`
+}
+
+type DescriptiveNote struct {
+	NoteText         string `xml:"Note_Text" bson:"noteText" yaml:"noteText"`
+	NoteLanguage     string `xml:"Note_Language" bson:"noteLanguage" yaml:"noteLanguage"`
+	NoteContributors struct {
+		NoteContributor []struct {
+			ContributorID string `xml:"Contributor_id" bson:"contributorId" yaml:"contributorId"`
+		} `xml:"Note_Contributor" bson:"noteContributors" yaml:"noteContributors"`
+	} `xml:"Note_Contributors" bson:"noteContributor" yaml:"noteContributor"`
+	NoteSources struct {
+		NoteSource []struct {
+			Source Source `xml:"Source" bson:"source" yaml:"source"`
+		} `xml:"Note_Source" bson:"noteSources" yaml:"noteSources"`
+	} `xml:"Note_Sources" bson:"noteSource" yaml:"noteSource"`
 }
 
 type AssociativeRelationship struct {

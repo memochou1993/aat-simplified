@@ -93,9 +93,13 @@ func convert() error {
 					subject.ParentRelationships.PreferredParent[i].ParentString = strings.TrimSuffix(s, " ")
 				}
 				for i, note := range subject.DescriptiveNotes.DescriptiveNote {
-					s := note.NoteText
-					s = strings.ReplaceAll(s, "\n", " ")
-					subject.DescriptiveNotes.DescriptiveNote[i].NoteText = s
+					if i < 1 {
+						s := note.NoteText
+						s = strings.ReplaceAll(s, "\n", " ")
+						subject.DescriptiveNotes.DescriptiveNote[i].NoteText = s
+						subject.DescriptiveNotes.DescriptiveNote = []model.DescriptiveNote{subject.DescriptiveNotes.DescriptiveNote[i]}
+						break
+					}
 				}
 				var b bytes.Buffer
 				encoder := yaml.NewEncoder(&b)
