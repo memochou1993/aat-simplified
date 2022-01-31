@@ -24,7 +24,7 @@ var (
 )
 
 func main() {
-	flag.StringVar(&filename, "f", "example.xml", "source file")
+	flag.StringVar(&filename, "f", "vocabulary.xml", "source file")
 	flag.Parse()
 	if err := convert(); err != nil {
 		log.Fatal(err)
