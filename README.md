@@ -10,5 +10,5 @@ cp aat/storage/
 cp aat/storage/vocabulary.xml aat-simplified/vocabulary.xml
 cd aat-simplified
 go run main.go
-./thesaurus-builder -f vocabulary.yaml
+./tb -f vocabulary.yaml
 ```
