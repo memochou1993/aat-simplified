@@ -12,7 +12,7 @@ type Subject struct {
 	} `xml:"Parent_Relationships" bson:"parentRelationship" yaml:"parentRelationship"`
 	DescriptiveNotes struct {
 		DescriptiveNote []DescriptiveNote `xml:"Descriptive_Note" bson:"descriptiveNotes" yaml:"descriptiveNotes"`
-	} `xml:"Descriptive_Notes" bson:"descriptiveNote" yaml:"note"` // use "note" for thesaurus builder
+	} `xml:"Descriptive_Notes" bson:"descriptiveNote" yaml:"note"` // use "note" for builder
 	RecordType   string `xml:"Record_Type" bson:"recordType" yaml:"recordType"`
 	MergedStatus string `xml:"Merged_Status" bson:"mergedStatus" yaml:"mergedStatus"`
 	Hierarchy    string `xml:"Hierarchy" bson:"hierarchy" yaml:"hierarchy"`
@@ -40,12 +40,12 @@ type ParentRelationship struct {
 	ParentSubjectID  string `xml:"Parent_Subject_ID" bson:"parentSubjectId" yaml:"parentSubjectId"`
 	RelationshipType string `xml:"Relationship_Type" bson:"relationshipType" yaml:"relationshipType"`
 	HistoricFlag     string `xml:"Historic_Flag" bson:"historicFlag" yaml:"historicFlag"`
-	ParentString     string `xml:"Parent_String" bson:"parentString" yaml:"termText"` // use "termText" for thesaurus builder
+	ParentString     string `xml:"Parent_String" bson:"parentString" yaml:"text"` // use "text" for builder
 	HierRelType      string `xml:"Hier_Rel_Type" bson:"hierRelType" yaml:"hierRelType"`
 }
 
 type DescriptiveNote struct {
-	NoteText         string `xml:"Note_Text" bson:"noteText" yaml:"noteText"`
+	NoteText         string `xml:"Note_Text" bson:"noteText" yaml:"text"` // use "text" for builder
 	NoteLanguage     string `xml:"Note_Language" bson:"noteLanguage" yaml:"noteLanguage"`
 	NoteContributors struct {
 		NoteContributor []struct {
@@ -68,7 +68,7 @@ type AssociativeRelationship struct {
 }
 
 type Term struct {
-	TermText      string `xml:"Term_Text" bson:"termText" yaml:"termText"`
+	TermText      string `xml:"Term_Text" bson:"termText" yaml:"text"` // use "text" for builder
 	DisplayName   string `xml:"Display_Name" bson:"displayName" yaml:"displayName"`
 	HistoricFlag  string `xml:"Historic_Flag" bson:"historicFlag" yaml:"historicFlag"`
 	Vernacular    string `xml:"Vernacular" bson:"vernacular" yaml:"vernacular"`
