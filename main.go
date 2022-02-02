@@ -49,8 +49,8 @@ func convert() error {
 		return err
 	}
 	defer closeFile(output)
-	title := "---\nsubjects:\n  "
-	if _, err := output.Write([]byte(title)); err != nil {
+	prefix := "---\ntitle: Art & Architecture Thesaurus\nsubjects:\n  "
+	if _, err := output.Write([]byte(prefix)); err != nil {
 		return err
 	}
 	for {
