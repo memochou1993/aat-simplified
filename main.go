@@ -101,6 +101,7 @@ func convert() error {
 						break
 					}
 				}
+				subject.NewNotes = subject.DescriptiveNotes.DescriptiveNote
 				var b bytes.Buffer
 				encoder := yaml.NewEncoder(&b)
 				encoder.SetIndent(2)

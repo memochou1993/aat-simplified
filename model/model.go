@@ -1,23 +1,18 @@
 package model
 
-type Subjects struct {
-	Subjects []Subject `xml:"Subject" bson:"subjects" yaml:"subjects"`
-}
-
 type Subject struct {
 	SubjectID           string `xml:"Subject_ID,attr" bson:"subjectId" yaml:"subjectId"`
 	ParentRelationships struct {
 		PreferredParent    []ParentRelationship `xml:"Preferred_Parent" bson:"preferredParents" yaml:"preferredParents"`
 		NonPreferredParent []ParentRelationship `xml:"Non-Preferred_Parent" bson:"nonPreferredParents" yaml:"nonPreferredParents"`
 	} `xml:"Parent_Relationships" bson:"parentRelationship" yaml:"parentRelationship"`
-	DescriptiveNotes struct {
-		DescriptiveNote []DescriptiveNote `xml:"Descriptive_Note" bson:"descriptiveNotes" yaml:"descriptiveNotes"`
-	} `xml:"Descriptive_Notes" bson:"descriptiveNote" yaml:"note"` // use "note" for builder
-	RecordType   string `xml:"Record_Type" bson:"recordType" yaml:"recordType"`
-	MergedStatus string `xml:"Merged_Status" bson:"mergedStatus" yaml:"mergedStatus"`
-	Hierarchy    string `xml:"Hierarchy" bson:"hierarchy" yaml:"hierarchy"`
-	SortOrder    string `xml:"Sort_Order" bson:"sortOrder" yaml:"sortOrder"`
-	Terms        struct {
+	NewNotes         []DescriptiveNote `yaml:"notes"` // new field for builder
+	DescriptiveNotes DescriptiveNotes  `xml:"Descriptive_Notes" bson:"descriptiveNote" yaml:"descriptiveNotes"`
+	RecordType       string            `xml:"Record_Type" bson:"recordType" yaml:"recordType"`
+	MergedStatus     string            `xml:"Merged_Status" bson:"mergedStatus" yaml:"mergedStatus"`
+	Hierarchy        string            `xml:"Hierarchy" bson:"hierarchy" yaml:"hierarchy"`
+	SortOrder        string            `xml:"Sort_Order" bson:"sortOrder" yaml:"sortOrder"`
+	Terms            struct {
 		PreferredTerm    []Term `xml:"Preferred_Term" bson:"preferredTerms" yaml:"preferredTerms"`
 		NonPreferredTerm []Term `xml:"Non-Preferred_Term" bson:"nonPreferredTerms" yaml:"nonPreferredTerms"`
 	} `xml:"Terms" bson:"term" yaml:"term"`
@@ -42,6 +37,10 @@ type ParentRelationship struct {
 	HistoricFlag     string `xml:"Historic_Flag" bson:"historicFlag" yaml:"historicFlag"`
 	ParentString     string `xml:"Parent_String" bson:"parentString" yaml:"text"` // use "text" for builder
 	HierRelType      string `xml:"Hier_Rel_Type" bson:"hierRelType" yaml:"hierRelType"`
+}
+
+type DescriptiveNotes struct {
+	DescriptiveNote []DescriptiveNote `xml:"Descriptive_Note" bson:"descriptiveNotes" yaml:"descriptiveNotes"`
 }
 
 type DescriptiveNote struct {
