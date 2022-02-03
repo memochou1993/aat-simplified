@@ -1,21 +1,17 @@
 package model
 
 type Subject struct {
-	SubjectID           string `xml:"Subject_ID,attr" bson:"subjectId" yaml:"subjectId"`
-	ParentRelationships struct {
-		PreferredParent    []ParentRelationship `xml:"Preferred_Parent" bson:"preferredParents" yaml:"preferredParents"`
-		NonPreferredParent []ParentRelationship `xml:"Non-Preferred_Parent" bson:"nonPreferredParents" yaml:"nonPreferredParents"`
-	} `xml:"Parent_Relationships" bson:"parentRelationship" yaml:"parentRelationship"`
-	NewNotes         []DescriptiveNote `yaml:"notes"` // new field for builder
-	DescriptiveNotes DescriptiveNotes  `xml:"Descriptive_Notes" bson:"descriptiveNote" yaml:"descriptiveNotes"`
-	RecordType       string            `xml:"Record_Type" bson:"recordType" yaml:"recordType"`
-	MergedStatus     string            `xml:"Merged_Status" bson:"mergedStatus" yaml:"mergedStatus"`
-	Hierarchy        string            `xml:"Hierarchy" bson:"hierarchy" yaml:"hierarchy"`
-	SortOrder        string            `xml:"Sort_Order" bson:"sortOrder" yaml:"sortOrder"`
-	Terms            struct {
-		PreferredTerm    []Term `xml:"Preferred_Term" bson:"preferredTerms" yaml:"preferredTerms"`
-		NonPreferredTerm []Term `xml:"Non-Preferred_Term" bson:"nonPreferredTerms" yaml:"nonPreferredTerms"`
-	} `xml:"Terms" bson:"term" yaml:"term"`
+	SubjectID                string               `xml:"Subject_ID,attr" bson:"subjectId" yaml:"subjectId"`
+	NewParentRelationships   []ParentRelationship `yaml:"parentRelationships"`                                                     // new field for builder
+	ParentRelationships      ParentRelationships  `xml:"Parent_Relationships" bson:"parentRelationship" yaml:"parentRelationship"` // delete for builder
+	NewNotes                 []DescriptiveNote    `yaml:"notes"`                                                                   // new field for builder
+	DescriptiveNotes         DescriptiveNotes     `xml:"Descriptive_Notes" bson:"descriptiveNote" yaml:"descriptiveNotes"`         // delete for builder
+	RecordType               string               `xml:"Record_Type" bson:"recordType" yaml:"recordType"`
+	MergedStatus             string               `xml:"Merged_Status" bson:"mergedStatus" yaml:"mergedStatus"`
+	Hierarchy                string               `xml:"Hierarchy" bson:"hierarchy" yaml:"hierarchy"`
+	SortOrder                string               `xml:"Sort_Order" bson:"sortOrder" yaml:"sortOrder"`
+	NewTerms                 []Term               `yaml:"terms"`                        // new field for builder
+	Terms                    Terms                `xml:"Terms" bson:"term" yaml:"term"` // delete for builder
 	AssociativeRelationships struct {
 		AssociativeRelationship []AssociativeRelationship `xml:"Associative_Relationship" bson:"associativeRelationships" yaml:"associativeRelationships"`
 	} `xml:"Associative_Relationships" bson:"associativeRelationship" yaml:"associativeRelationship"`
@@ -31,7 +27,13 @@ type Subject struct {
 	} `xml:"Subject_Sources" bson:"subjectSource" yaml:"subjectSource"`
 }
 
+type ParentRelationships struct {
+	PreferredParent    []ParentRelationship `xml:"Preferred_Parent" bson:"preferredParents" yaml:"preferredParents"`
+	NonPreferredParent []ParentRelationship `xml:"Non-Preferred_Parent" bson:"nonPreferredParents" yaml:"nonPreferredParents"`
+}
+
 type ParentRelationship struct {
+	Preferred        bool   `yaml:"preferred"` // new field for builder
 	ParentSubjectID  string `xml:"Parent_Subject_ID" bson:"parentSubjectId" yaml:"parentSubjectId"`
 	RelationshipType string `xml:"Relationship_Type" bson:"relationshipType" yaml:"relationshipType"`
 	HistoricFlag     string `xml:"Historic_Flag" bson:"historicFlag" yaml:"historicFlag"`
@@ -66,7 +68,13 @@ type AssociativeRelationship struct {
 	HistoricFlag string `xml:"Historic_Flag" bson:"historicFlag" yaml:"historicFlag"`
 }
 
+type Terms struct {
+	PreferredTerm    []Term `xml:"Preferred_Term" bson:"preferredTerms" yaml:"preferredTerms"`
+	NonPreferredTerm []Term `xml:"Non-Preferred_Term" bson:"nonPreferredTerms" yaml:"nonPreferredTerms"`
+}
+
 type Term struct {
+	Preferred     bool   `yaml:"preferred"`                            // new field for builder
 	TermText      string `xml:"Term_Text" bson:"termText" yaml:"text"` // use "text" for builder
 	DisplayName   string `xml:"Display_Name" bson:"displayName" yaml:"displayName"`
 	HistoricFlag  string `xml:"Historic_Flag" bson:"historicFlag" yaml:"historicFlag"`

@@ -101,7 +101,29 @@ func convert() error {
 						break
 					}
 				}
+				// transform parentRelationships
+				subject.NewParentRelationships = []model.ParentRelationship{}
+				for _, p := range subject.ParentRelationships.PreferredParent {
+					p.Preferred = true
+					subject.NewParentRelationships = append(subject.NewParentRelationships, p)
+				}
+				for _, p := range subject.ParentRelationships.NonPreferredParent {
+					subject.NewParentRelationships = append(subject.NewParentRelationships, p)
+				}
+				subject.ParentRelationships = model.ParentRelationships{}
+				// transform terms
+				subject.NewTerms = []model.Term{}
+				for _, t := range subject.Terms.PreferredTerm {
+					t.Preferred = true
+					subject.NewTerms = append(subject.NewTerms, t)
+				}
+				for _, t := range subject.Terms.NonPreferredTerm {
+					subject.NewTerms = append(subject.NewTerms, t)
+				}
+				subject.Terms = model.Terms{}
+				// transform notes
 				subject.NewNotes = subject.DescriptiveNotes.DescriptiveNote
+				subject.DescriptiveNotes = model.DescriptiveNotes{}
 				var b bytes.Buffer
 				encoder := yaml.NewEncoder(&b)
 				encoder.SetIndent(2)
