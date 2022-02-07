@@ -1,4 +1,4 @@
-mini-aat
+aat-simplified
 ===
 
 # Development
