@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy
-      run: bash deploy.sh
+      run: git subtree push --prefix dist origin gh-pages
