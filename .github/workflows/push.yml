@@ -1,0 +1,10 @@
+name: aat-simplified
+
+on: push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy
+      run: bash deploy.sh
